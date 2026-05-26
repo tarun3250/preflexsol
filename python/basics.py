@@ -15,3 +15,14 @@ print(type(stu_age))
 #type conversion
 stu_aget=int(input('enter age of students'))
 print(type(stu_aget))
+
+#student info program
+#take inputs and print output
+
+name=input('enter the student name :')
+age=int(input('enter the student age: '))
+skill=input('enter favourite skill')
+city=input('enter city:')
+
+print('My name is ',name, 'and I am',age, 'years old')
+
